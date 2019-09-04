@@ -9,6 +9,7 @@ import 'moment/locale/zh-cn';
 import './rollbar';
 
 import './index.less';
+// 测试新的项目
 // 1. Initialize
 const app = dva({
   history: createHistory(),
