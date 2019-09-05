@@ -11,6 +11,7 @@ import './rollbar';
 import './index.less';
 // 测试新的项目
 // 测试master
+// 2019/9/5测试是否打包
 // 1. Initialize
 const app = dva({
   history: createHistory(),
