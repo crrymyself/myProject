@@ -15,12 +15,12 @@ import {
 } from 'antd';
 import numeral from 'numeral';
 import {
-  ChartCard,
+  // ChartCard,
   yuan,
   MiniArea,
-  MiniBar,
-  MiniProgress,
-  Field,
+  // MiniBar,
+  // MiniProgress,
+  // Field,
   Bar,
   Pie,
   TimelineChart,
@@ -125,7 +125,7 @@ export default class Analysis extends Component {
     const { rangePickerValue, salesType, currentTabKey } = this.state;
     const { chart, loading } = this.props;
     const {
-      visitData,
+      // visitData,
       visitData2,
       salesData,
       searchData,
@@ -245,18 +245,18 @@ export default class Analysis extends Component {
       </Row>
     );
 
-    const topColResponsiveProps = {
-      xs: 24,
-      sm: 12,
-      md: 12,
-      lg: 12,
-      xl: 6,
-      style: { marginBottom: 24 },
-    };
+    // const topColResponsiveProps = {
+    //   xs: 24,
+    //   sm: 12,
+    //   md: 12,
+    //   lg: 12,
+    //   xl: 6,
+    //   style: { marginBottom: 24 },
+    // };
 
     return (
       <Fragment>
-        <Row gutter={24}>
+        {/* <Row gutter={24}>
           <Col {...topColResponsiveProps}>
             <ChartCard
               bordered={false}
@@ -343,7 +343,7 @@ export default class Analysis extends Component {
               <MiniProgress percent={78} strokeWidth={8} target={80} color="#13C2C2" />
             </ChartCard>
           </Col>
-        </Row>
+        </Row> */}
 
         <Card loading={loading} bordered={false} bodyStyle={{ padding: 0 }}>
           <div className={styles.salesCard}>
