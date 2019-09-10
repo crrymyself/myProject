@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Button, Icon, Card } from 'antd';
 import Result from 'components/Result';
 import PageHeaderLayout from '../../layouts/PageHeaderLayout';
+import Test from './Test';
 
 const extra = (
   <Fragment>
@@ -45,6 +46,7 @@ export default () => (
         actions={actions}
         style={{ marginTop: 48, marginBottom: 16 }}
       />
+      <Test />
     </Card>
   </PageHeaderLayout>
 );
