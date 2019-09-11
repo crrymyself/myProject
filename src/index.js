@@ -25,6 +25,7 @@ import './index.less';
 // 2019/9/7测试是否打包 第七次！！
 // 2019/9/10测试是否打包 第二次！！
 // 2019/9/10测试是否打包 第三次！！
+// 2019/9/11测试是否打包 第一次！！
 // 1. Initialize
 const app = dva({
   history: createHistory(),
