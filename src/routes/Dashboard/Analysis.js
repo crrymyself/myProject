@@ -210,10 +210,7 @@ export default class Analysis extends Component {
         sorter: (a, b) => a.range - b.range,
         render: (text, record) => (
           <Trend flag={record.status === 1 ? 'down' : 'up'}>
-            <span style={{ marginRight: 4 }}>
-              {text}
-              %
-            </span>
+            <span style={{ marginRight: 4 }}>{text}%</span>
           </Trend>
         ),
         align: 'right',
@@ -350,6 +347,7 @@ export default class Analysis extends Component {
         <h1>2019/9/10测试是否打包 第三次！！</h1>
         <h1>2019/9/11测试是否打包 第一次！！</h1>
         <h1>2019/9/12测试是否打包 第一次！！</h1>
+        <h1>2019/9/15测试是否打包 第一次！！</h1>
         <Card loading={loading} bordered={false} bodyStyle={{ padding: 0 }}>
           <div className={styles.salesCard}>
             <Tabs tabBarExtraContent={salesExtra} size="large" tabBarStyle={{ marginBottom: 24 }}>
