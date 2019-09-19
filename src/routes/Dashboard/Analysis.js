@@ -343,13 +343,8 @@ export default class Analysis extends Component {
             </ChartCard>
           </Col>
         </Row> */}
-        <h1>我是2019-9-10第一次修改</h1>
-        <h1>2019/9/10测试是否打包 第三次！！</h1>
-        <h1>2019/9/11测试是否打包 第一次！！</h1>
-        <h1>2019/9/12测试是否打包 第一次！！</h1>
-        <h1>2019/9/15测试是否打包 第一次！！</h1>
-        <h1>2019/9/18测试是否打包 第一次！！</h1>
         <h1>2019/9/19测试是否打包 第一次！！</h1>
+        <h1>2019/9/19测试是否打包 第二次！！</h1>
         <Card loading={loading} bordered={false} bodyStyle={{ padding: 0 }}>
           <div className={styles.salesCard}>
             <Tabs tabBarExtraContent={salesExtra} size="large" tabBarStyle={{ marginBottom: 24 }}>
