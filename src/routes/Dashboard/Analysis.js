@@ -343,7 +343,7 @@ export default class Analysis extends Component {
             </ChartCard>
           </Col>
         </Row> */}
-        <h1>2019/9/20测试是否打包 第三次！！</h1>
+        <h1>2019/9/22 那就从今天学习把！</h1>
         <Card loading={loading} bordered={false} bodyStyle={{ padding: 0 }}>
           <div className={styles.salesCard}>
             <Tabs tabBarExtraContent={salesExtra} size="large" tabBarStyle={{ marginBottom: 24 }}>
